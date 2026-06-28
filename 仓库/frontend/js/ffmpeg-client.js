@@ -1,5 +1,5 @@
-const CDN_FFCORE_JS  = 'https://cdn.jsdelivr.net/npm/@ffmpeg/core-st@0.12.6/dist/ffmpeg-core.js';
-const CDN_FFCORE_WASM = 'https://cdn.jsdelivr.net/npm/@ffmpeg/core-st@0.12.6/dist/ffmpeg-core.wasm';
+const CDN_FFCORE_JS  = 'https://cdn.jsdelivr.net/npm/@ffmpeg/core-st@0.11.1/dist/ffmpeg-core.js';
+const CDN_FFCORE_WASM = 'https://cdn.jsdelivr.net/npm/@ffmpeg/core-st@0.11.1/dist/ffmpeg-core.wasm';
 
 const ENCODE_MAP = {
   mp3: { codec: 'libmp3lame', suffix: '.mp3', mime: 'audio/mpeg' },
